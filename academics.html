@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Tabbed navigation</title>
+	<style>
+		#container{
+			border:5px solid black; padding:5px;padding-top: 10px;
+			width: 600px; 
+		}
+		#navbar{
+			border-bottom: 2px solid black;
+			width: 600px; height: 35px;
+		}
+		#navbar ul{
+			margin:0; padding:0;
+		}
+		#navbar ul li{float: left;}
+		#navbar ul li a{
+			text-decoration: none; margin-right:1px; font-family: "Arial Black", sans-serif; color: black;
+			border: 2px solid black; border-bottom: none; padding: 5px 20px; text-align: center; width: 100px;
+			background: blue; display: block; border-top-left-radius: 1em;border-top-right-radius: 1em;
+		}	
+		#navbar ul li a:hover {
+			background: orange;
+			color:white;
+		}
+		#navbar ul li a#onlink{
+			background: white;
+			color: black;
+			border-bottom: 2px solid white;
+		}
+		/*#navbar ul li a#onlink:hover{}*/
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="navbar">
+			<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="admissions.html">Admissions</a></li>
+			<li><a href="academics.html" id="onlink">Academics</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h3>Welcome to Academics page</h3>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
